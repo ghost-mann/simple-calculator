@@ -26,14 +26,14 @@ int main() {
             printf("%.2f + %.2f = %.2f\n", num1, num2, result);
         }
 
-        if (operator == "-") {
+        if (operator == '-') {
             result = num1 - num2;
             printf("%.2f - %.2f = %.2f\n", num1, num2, result);
         }
 
         else if (operator == '*') {
             result = num1 * num2;
-            printf("%.2f + %.2f = %.2f\n", num1,num2, result);
+            printf("%.2f * %.2f = %.2f\n", num1,num2, result);
         }
 
         else if (operator == '/') {
@@ -41,7 +41,7 @@ int main() {
                 printf("We can't divide by zero! \n");
             } else {
                 result = num1 / num2;
-                printf("%.2f + %.2f = %.2f\n", num1,num2,result);
+                printf("%.2f / %.2f = %.2f\n", num1,num2,result);
             }
         }
         else {
